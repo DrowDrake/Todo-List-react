@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background-color: #3b3e42;
+}
+
+body {
+  margin: 0 auto;
+}

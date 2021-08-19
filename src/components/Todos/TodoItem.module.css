@@ -1,0 +1,30 @@
+.todoItem {
+  border-bottom: 1px solid #faf4e8;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Special Elite", cursive;
+  font-size: x-large;
+  color: #faf4e8;
+  word-break: break-all;
+}
+
+.todoItem:hover {
+  cursor: grab;
+}
+
+.todoItem:hover:active {
+  cursor: grabbing;
+  border-bottom: 1px solid tomato;
+}
+
+.todoItem button {
+  margin-left: 0.5rem;
+}
+
+.todoItem:active:hover button {
+  color: tomato;
+}

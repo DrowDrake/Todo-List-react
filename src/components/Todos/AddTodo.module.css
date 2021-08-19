@@ -1,0 +1,54 @@
+.input {
+  padding: 2rem;
+  width: 100%;
+  max-width: 50rem;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: #faf4e8;
+  font-size: xx-large;
+  letter-spacing: 2px;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  margin: 0.5rem auto;
+  width: 95%;
+  height: 3rem;
+  border: none;
+  background-color: #655967;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: #faf4e8;
+  font-family: "Special Elite", cursive;
+  padding: 0 0.5rem;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.inputButton {
+  position: absolute;
+  top: 2.4rem;
+  right: 3.1rem;
+}
+
+@media (max-width: 480px) {
+  .inputButton {
+    position: static;
+    margin: 0.5rem 0 0 50%;
+    transform: translateX(-50%);
+  }
+}
