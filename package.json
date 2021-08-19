@@ -2,7 +2,7 @@
   "name": "my-todo-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DrowDrake/Todo-List-react-sample",
+  "homepage": "https://DrowDrake/Todo-List-react-sample",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
