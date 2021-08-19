@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DrowDrake/Todo-List-react-sample/static/css/main.122f9b43.chunk.css",
+    "main.js": "/DrowDrake/Todo-List-react-sample/static/js/main.d6216ae9.chunk.js",
+    "main.js.map": "/DrowDrake/Todo-List-react-sample/static/js/main.d6216ae9.chunk.js.map",
+    "runtime-main.js": "/DrowDrake/Todo-List-react-sample/static/js/runtime-main.87ac7972.js",
+    "runtime-main.js.map": "/DrowDrake/Todo-List-react-sample/static/js/runtime-main.87ac7972.js.map",
+    "static/js/2.4ac7c4ca.chunk.js": "/DrowDrake/Todo-List-react-sample/static/js/2.4ac7c4ca.chunk.js",
+    "static/js/2.4ac7c4ca.chunk.js.map": "/DrowDrake/Todo-List-react-sample/static/js/2.4ac7c4ca.chunk.js.map",
+    "index.html": "/DrowDrake/Todo-List-react-sample/index.html",
+    "static/css/main.122f9b43.chunk.css.map": "/DrowDrake/Todo-List-react-sample/static/css/main.122f9b43.chunk.css.map",
+    "static/js/2.4ac7c4ca.chunk.js.LICENSE.txt": "/DrowDrake/Todo-List-react-sample/static/js/2.4ac7c4ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87ac7972.js",
+    "static/js/2.4ac7c4ca.chunk.js",
+    "static/css/main.122f9b43.chunk.css",
+    "static/js/main.d6216ae9.chunk.js"
+  ]
+}
