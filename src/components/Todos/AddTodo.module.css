@@ -1,11 +1,14 @@
+.add-todo-container {
+  width: 100%;
+  max-width: 50rem;
+  margin-top: 15vh;
+}
+
 .input {
   padding: 2rem;
   width: 100%;
   max-width: 50rem;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-bottom: 10px;
 }
 
 .input label {
@@ -40,15 +43,12 @@
 }
 
 .inputButton {
-  position: absolute;
   top: 2.4rem;
   right: 3.1rem;
 }
 
 @media (max-width: 480px) {
   .inputButton {
-    position: static;
     margin: 0.5rem 0 0 50%;
-    transform: translateX(-50%);
   }
 }

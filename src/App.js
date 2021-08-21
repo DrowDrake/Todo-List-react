@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AddTodo from "./components/Todos/AddTodo";
 import TodoList from "./components/Todos/TodoList";
+import classes from "./App.module.css";
 
 const App = () => {
   const [todoList, setTodoList] = useState([]);
@@ -27,7 +28,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className={classes["root-div"]}>
       <AddTodo onAddTodo={addTodoHandler} />
       <TodoList
         todoList={todoList}
