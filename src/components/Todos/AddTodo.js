@@ -51,7 +51,7 @@ const Todo = (props) => {
   };
 
   return (
-    <div>
+    <div className={classes["add-todo-container"]}>
       {error && (
         <ErrorModal
           title={error.title}
