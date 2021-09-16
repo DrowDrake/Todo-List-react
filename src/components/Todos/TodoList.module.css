@@ -2,6 +2,14 @@
   width: 100%;
   max-width: 50rem;
   max-height: 50vh;
+  margin-top: 4em;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.todoList::-webkit-scrollbar {
+  display: none;
 }
 
 .todoList p {
