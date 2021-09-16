@@ -5,42 +5,10 @@ import classes from "./TodoList.module.css";
 
 const TodoList = (props) => {
   const [currentItem, setCurrentItem] = useState(null);
-  //1
   let emptyList = true;
   if (props.todoList.length !== 0) {
     emptyList = false;
   }
-
-  // Which of these three approaches is better ?
-  // If it first then is it ok to use it like this or better use "useState" for emptyList variable ?
-  // IMHO I would prefer the third variant because everything is divided into smaller components.
-  // Code is small, easy to read, and well structured. Please correct me if I am wrong.
-  //2
-  // const emptyList = () => {
-  //   if (props.todoList.length === 0) {
-  //     return <p>TODO list is empty</p>;
-  //   }
-  //2
-  //   return (
-  //     <ul>
-  //       {props.todoList.map((todo) => (
-  //         <li key={todo.id} draggable="true">
-  //           {todo.message}
-  //           <Button>X</Button>
-  //         </li>
-  //       ))}
-  //     </ul>
-  //   );
-  // };
-
-  // 3
-  // const todoList = (
-  //   <ul>
-  //     {props.todoList.map((todo) => (
-  //       <TodoItem id={todo.id} message={todo.message} />
-  //     ))}
-  //   </ul>
-  // );
 
   const dragStartHandler = (event, todo) => {
     setCurrentItem(todo);
@@ -73,7 +41,6 @@ const TodoList = (props) => {
   };
 
   return (
-    // 1
     <Card className={classes.todoList}>
       {emptyList && <p>TODO list is empty</p>}
       {!emptyList && (
@@ -93,10 +60,6 @@ const TodoList = (props) => {
           ))}
         </ul>
       )}
-      {/* 3 */}
-      {/* {!emptyList && todoList} */}
-      {/* 2 */}
-      {/* {emptyList()} */}
     </Card>
   );
 };
